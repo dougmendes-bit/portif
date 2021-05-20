@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: #3d405b;
+    font-family: 'Noto Sans HK', sans-serif;
+    width: 60%;
+    margin: 5%  0 0 10%;
+}
+
+
+/* APRESENTAÇÃO */
+
+.apresentaçao{
+    display: flex;
+    flex-direction: column;
+}
+
+.minhaFoto{
+    width: 20%;
+    align-self: flex-start;
+    box-shadow: #81b29a 5px 5px;
+    margin-bottom: 50px;
+}
+.apresentaçao h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #f4f1de;
+}
+
+.apresentaçao p{
+    font-size: 18px;
+    color: #f4f1de;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.colorido{
+    color: #e07a5f;
+}
+
+.quadrado{
+    padding: 10px;
+}
+.quadrado:hover{
+    border: 3px solid #81b29a;
+    border-radius: 8px;
+}
+
+.hr1{
+    border: 1px solid #81b29a;
+    margin-top: 20px;
+}
+
+.hr2{
+    margin:0 0 0 0;
+    border: 1px solid #81b29a;
+}
+
+/* CONTATO */
+
+.contato{
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.contato p{
+    align-self: center;
+    border: 1px solid #f4f1de;
+    padding: 5px 5px;
+    color: #f4f1de;
+    font-weight: bold;
+    box-shadow: 4px 4px #81b29a;
+}
+
+.contato a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Noto Sans HK', sans-serif;
+    border: 1px solid #f4f1de;
+    color: #f4f1de;
+    padding: 5px 5px;
+    margin: 0px 20px;
+    box-shadow: 4px 4px #81b29a;
+}
+
+/* PROJETOS */
+
+.projetos{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projetoTituloSeçao{
+    font-size: 32px;
+    font-weight: bold;
+    color: #f4f1de;
+    margin-left: 10px;
+    margin-bottom: 20px;
+;
+}
+
+.caixaProjeto{
+    width: 80%;
+    border: 2px solid #f4f1de;
+    height: px;
+    padding: 30px;
+    box-shadow: #81b29a 4px 4px;
+}
+
+.tituloProjeto{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e07a5f;
+}
+
+.ferramentasProjeto{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f4f1de;
+}
+
+.dataProjeto{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f4f1de;
+}
+
