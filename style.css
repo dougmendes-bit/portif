@@ -137,3 +137,37 @@ ul{
     color: #f4f1de;
 }
 
+@media (max-width:767px){
+    body{
+        width: 90%;
+        margin: 0 0 0 0;
+    }
+
+    .quadrado{
+        width: 100%;
+    }
+
+    .caixaProjeto {
+        width: 80%;
+        border: 2px solid #f4f1de;
+        height: px;
+        padding: 30px;
+        box-shadow: #81b29a 4px 4px;
+        margin: 20px 0 0 10px;
+    }
+
+    .minhaFoto{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .listaDeContatos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contato li{
+        margin-bottom: 25px;
+    }
+}
+
